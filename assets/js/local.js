@@ -9,9 +9,10 @@ function utc(year, month, day, hours, minutes, seconds, milliseconds) {
 }
 
 var EVENTS = [
-    {name: "Takeoff!", time: utc(2014, 10, 20, 2, 30)},
-    {name: "Landing...", time: utc(2014, 10, 21, 3, 40)},
-    {name: "Party at djanatyn's place!", time: utc(2014, 10, 22, 4, 0)},
+    {name: "banseljaj boards his plane", time: utc(2014, 10, 23, 22, 40)},
+    {name: "banseljaj lands in San Francisco", time: utc(2014, 10, 25, 15, 50)},
+    {name: "banseljaj boards his return plane", time: utc(2014, 12, 1, 20, 25)},
+    {name: "banseljaj lands in Islamabad", time: utc(2014, 12, 2, 20, 0)},
 ];
 EVENTS.sort(function(e1, e2) {
     return e1.time.getTime() - e2.time.getTime();
