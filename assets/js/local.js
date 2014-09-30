@@ -37,14 +37,16 @@ function getNextEvent() {
 $(document).ready(function() {
     var clock = $('.countdown-timer').FlipClock({
         autoStart: false,
+        clockFace: 'DailyCounter',
         countdown: true
     });
 
     function updateClock() {
         var nextEvent = getNextEvent();
-        console.log(nextEvent);
         if (nextEvent) {
-            clock.setTime(nextEvent.time.getTime() - unixTimeNow());
+            var time = nextEvent.time.getTime() - unixTimeNow();
+            clock.setTime(time / 1000); // round to nearest second
+            $('.next-event').text(nextEvent.name);
         } else {
             clock.stop();
             alert("BANSELJAJ IS HERE!");
