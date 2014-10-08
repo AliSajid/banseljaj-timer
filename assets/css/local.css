@@ -1,6 +1,13 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.countdown-timer {
+    display: inline-block;
+    width: inherit;
+}
+
 .next-event {
     font-style: italic;
 }
-body {
-background-color: rgb(238, 238, 238);
-}
+
