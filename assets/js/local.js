@@ -13,7 +13,7 @@ var EVENTS = [
     {name: "banseljaj lands in Abu Dhabi", time: utc(2014, 10, 24, 2, 10)},
     {name: "banseljaj boards his plane to Chicago", time: utc(2014, 10, 24, 5, 45)},
     {name: "banseljaj lands in Chicago", time: utc(2014, 10, 24, 20, 25)},
-    {name: "banseljaj boards his plane to San Francisco", time: utc(2014, 10, 24, 23 20)},
+    {name: "banseljaj boards his plane to San Francisco", time: utc(2014, 10, 24, 23, 20)},
     {name: "banseljaj lands in San Francisco", time: utc(2014, 10, 25, 3, 50)},
     {name: "banseljaj boards his return plane", time: utc(2014, 12, 1, 20, 25)},
     {name: "banseljaj lands in Islamabad", time: utc(2014, 12, 2, 20, 0)},
